@@ -18,6 +18,7 @@
 		1A8FFAC32E3C92F100E58551 /* Exceptions for "LocalPackages" folder in "ShopApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				NetworkClient,
 				Resolver,
 				RestClient,
 			);
