@@ -6,9 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1A8FFAC62E3CAA6A00E58551 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = 1A8FFAC52E3CAA6A00E58551 /* Resolver */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1A2139832E3C8B8E00F79CA9 /* ShopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1A8FFAC32E3C92F100E58551 /* Exceptions for "LocalPackages" folder in "ShopApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resolver,
+			);
+			target = 1A2139822E3C8B8E00F79CA9 /* ShopApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1A2139972E3C8BCA00F79CA9 /* Resources */ = {
@@ -21,6 +35,14 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		1A8FFAC12E3C92D900E58551 /* LocalPackages */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1A8FFAC32E3C92F100E58551 /* Exceptions for "LocalPackages" folder in "ShopApp" target */,
+			);
+			path = LocalPackages;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8FFAC62E3CAA6A00E58551 /* Resolver in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,8 +60,10 @@
 		1A21397A2E3C8B8E00F79CA9 = {
 			isa = PBXGroup;
 			children = (
+				1A8FFAC12E3C92D900E58551 /* LocalPackages */,
 				1A2139982E3C8BD300F79CA9 /* Sources */,
 				1A2139972E3C8BCA00F79CA9 /* Resources */,
+				1A8FFAC42E3CAA6A00E58551 /* Frameworks */,
 				1A2139842E3C8B8E00F79CA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +74,13 @@
 				1A2139832E3C8B8E00F79CA9 /* ShopApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1A8FFAC42E3CAA6A00E58551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -69,9 +101,11 @@
 			fileSystemSynchronizedGroups = (
 				1A2139972E3C8BCA00F79CA9 /* Resources */,
 				1A2139982E3C8BD300F79CA9 /* Sources */,
+				1A8FFAC12E3C92D900E58551 /* LocalPackages */,
 			);
 			name = ShopApp;
 			packageProductDependencies = (
+				1A8FFAC52E3CAA6A00E58551 /* Resolver */,
 			);
 			productName = ShopApp;
 			productReference = 1A2139832E3C8B8E00F79CA9 /* ShopApp.app */;
@@ -360,6 +394,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A8FFAC52E3CAA6A00E58551 /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Resolver;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1A21397B2E3C8B8E00F79CA9 /* Project object */;
 }
