@@ -19,6 +19,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resolver,
+				RestClient,
 			);
 			target = 1A2139822E3C8B8E00F79CA9 /* ShopApp */;
 		};

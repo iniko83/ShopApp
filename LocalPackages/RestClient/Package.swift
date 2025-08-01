@@ -4,19 +4,15 @@
 import PackageDescription
 
 let package = Package(
-  name: "Resolver",
+  name: "RestClient",
   platforms: [.iOS(.v17)],
   products: [
     .library(
-      name: "Resolver",
-      targets: ["Resolver"]
+      name: "RestClient",
+      targets: ["RestClient"]
     ),
   ],
   targets: [
-    .target(name: "Resolver"),
-    .testTarget(
-      name: "ResolverTests",
-      dependencies: ["Resolver"]
-    ),
+    .target(name: "RestClient"),
   ]
 )
