@@ -22,6 +22,7 @@
 				NetworkConnectionService,
 				Resolver,
 				RestClient,
+				Utility,
 			);
 			target = 1A2139822E3C8B8E00F79CA9 /* ShopApp */;
 		};
